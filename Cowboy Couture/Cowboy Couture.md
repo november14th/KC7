@@ -64,7 +64,7 @@ For example, we know we have an employee who's a model at Celestial Cowboy Coutu
 
 ```sql
 Employees
-| **where** role **contains** "model"
+| where role contains "model"
 ```
 
 **What is our model's exact role?**
@@ -133,8 +133,8 @@ The `distinct` operator is super useful for filtering out duplicate data so th
 
 ```sql
 ProcessEvents
-| **where** hostname == "Put John's hostname here"
-|**distinct** process_commandline
+| where hostname == "Put John's hostname here"
+|distinct process_commandline
 ```
 
 **How many distinct commands were run on John Strand's machine?**
