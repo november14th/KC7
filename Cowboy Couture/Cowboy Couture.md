@@ -154,7 +154,7 @@ ProcessEvents
 When in doubt you can do a `take 10` to quickly peek into a table and get a sense of what kind of data it holds.
 
 ```sql
-(**Insert** **any** **table** name here)
+(Insert any table name here)
 | take 10
 ```
 
@@ -164,7 +164,7 @@ By grabbing just the first 10 rows, you can get an overview of the structure and
 
 # Section 2: All about the dataz
 
-![image.png](Cowboy%20Couture%202577141dc54380d9b277c1cdcb2cd873/image.png)
+![image.png](image.png)
 
 ### Question 1
 
@@ -265,7 +265,7 @@ FileCreationEvents
 | project-keep filename, path
 ```
 
-![image.png](Cowboy%20Couture%202577141dc54380d9b277c1cdcb2cd873/image%201.png)
+![image.png](image%201.png)
 
 ### Question 5
 
@@ -302,7 +302,7 @@ FileCreationEvents
 | project-keep path
 ```
 
-![image.png](Cowboy%20Couture%202577141dc54380d9b277c1cdcb2cd873/image%202.png)
+![image.png](image%202.png)
 
 ### Question 7
 
@@ -390,7 +390,7 @@ AuthenticationEvents
 | summarize count() by src_ip
 ```
 
-![image.png](Cowboy%20Couture%202577141dc54380d9b277c1cdcb2cd873/image%203.png)
+![image.png](image%203.png)
 
 ```bash
 AuthenticationEvents
@@ -496,7 +496,7 @@ ProcessEvents
 | project-keep process_commandline, timestamp
 ```
 
-![image.png](Cowboy%20Couture%202577141dc54380d9b277c1cdcb2cd873/image%204.png)
+![image.png](image%204.png)
 
 ### Question 6
 
