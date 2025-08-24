@@ -269,17 +269,17 @@ InboundNetworkEvents
 
 > `105.78.23.64`
 > 
+```sql
+InboundNetworkEvents
+| where user_agent == "Opera/8.64.(X11; Linux x86_64; kok-IN) Presto/2.9.165 Version/10.00"
+| distinct src_ip
+```
 
 ```
-105.78.23.64
-13.201.46.208
-56.6.30.190
-13.201.46.208
-98.117.26.236
 98.117.26.236
 105.78.23.64
-105.78.23.64
 56.6.30.190
+13.201.46.208
 ```
 
 ### Question 9
