@@ -330,7 +330,7 @@ InboundNetworkEvents
 | project-keep url
 ```
 
-![image.png](Solvi%20Systems%202597141dc5438016b078c4d942819335/image.png)
+![image.png](image.png)
 
 ### Question 12
 
@@ -627,7 +627,7 @@ ProcessEvents
 | project-keep process_commandline
 ```
 
-![image.png](Solvi%20Systems%202597141dc5438016b078c4d942819335/image%201.png)
+![image.png](image%201.png)
 
 ### Question 3
 
@@ -651,7 +651,7 @@ NetworkFlow
 | summarize count() by timestamp
 ```
 
-![image.png](Solvi%20Systems%202597141dc5438016b078c4d942819335/image%202.png)
+![image.png](image%202.png)
 
 ### Question 5
 
@@ -709,7 +709,7 @@ ProcessEvents
 | project-keep process_commandline
 ```
 
-![image.png](Solvi%20Systems%202597141dc5438016b078c4d942819335/image%203.png)
+![image.png](image%203.png)
 
 ### Question 10
 
@@ -729,7 +729,7 @@ We can find these discovery commands.
 > `net use`
 > 
 
-![image.png](Solvi%20Systems%202597141dc5438016b078c4d942819335/image%204.png)
+![image.png](image%204.png)
 
 # Section 5: A shocking ending
 
@@ -891,7 +891,7 @@ InboundNetworkEvents
 | where url has "internal"
 ```
 
-![image.png](Solvi%20Systems%202597141dc5438016b078c4d942819335/image%205.png)
+![image.png](image%205.png)
 
 ### Question 13
 
